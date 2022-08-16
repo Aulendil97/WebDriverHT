@@ -23,7 +23,7 @@ public class BaseTest {
         driver.get(GOOGLE_URL);
     }
 
-    // @AfterMethod
+    @AfterMethod
      public void tearDown() {
            driver.close();
      }
