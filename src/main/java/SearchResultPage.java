@@ -4,7 +4,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class SearchResultPage extends BasePage {
 
-    @FindBy(xpath = "//a[text()='Зображення']")
+    @FindBy(xpath = "//a[text()='Зображення' or text()='Картинки' or text()='Images']")
     private WebElement ImagesSearch;
 
     public SearchResultPage(WebDriver driver) {
